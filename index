@@ -1,0 +1,249 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Ortiz</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --background-color: #f5f6fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-info h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .profile-info p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-item h3, .education-item h3 {
+            color: var(--secondary-color);
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: var(--secondary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header {
+                padding: 20px 0;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-info">
+                <h1>Roberto Ortiz</h1>
+                <p>Senior Business Analyst</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Extensive experience spanning management of complex digital products, managing product strategy, marketing, product roadmap, business-stakeholder-functional requirements, UX, applications delivery, vendor management, and management of local and offshore teams. Equally capable at delving into product requirements and negotiating with engineers as presenting to executive-level customer decision-makers and industry analysts. Dynamic leader and team builder, consistently inspiring and motivating personnel toward success.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Senior Business Analyst</h3>
+                <div class="date">Business Analysis Pty Ltd (BAPL), Melbourne, VIC, Australia | November 2021 – Current</div>
+                <ul>
+                    <li>Use of proven IIBA methodology to improve business performance, provide agility, cost reduction, and risk control.</li>
+                    <li>Streamlining financial operations for a not-for-profit organisation through comprehensive vendor selection documentation and requirements analysis, enabling transition from manual processes to an integrated ERP solution.</li>
+                    <li>Improving the usability and data accuracy of a Governmental sustainability assessment tool, enhancing user experience and efficiency through stakeholder feedback and prioritised solution implementation.</li>
+                    <li>Crafting robust Governance, Risk, and Compliance (GRC) processes for the entertainment industry, ensuring long-term stability and growth.</li>
+                    <li>Space utilisation optimisation in higher education by analysing and proposing solutions, and devising the design and implementation strategy.</li>
+                    <li>Definition of IT separation impact and remediation strategies for a large logistics divestiture, safeguarding business continuity during a complex transition.</li>
+                    <li>Responsible for championing the AI practices dissemination internally as a way of strategic solutioning, improving productivity, and fostering stakeholder collaboration.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Sales Engineer | Project Manager</h3>
+                <div class="date">itprojects.com.au, Melbourne, VIC, Australia | May 2016 – November 2021</div>
+                <ul>
+                    <li>Delivering software and services for enterprise-wide business processes automation and improvement, in the areas of compliance management and corporate governance.</li>
+                    <li>Worked with customers to identify their needs in terms of process management and optimisation, to evaluate and analyse business requirements, and present solutions that meet their needs.</li>
+                    <li>Provided technical support by assisting clients with installation, testing, and maintenance of software products. Also worked with the development team to address issues and bugs that arose, ensuring that clients receive quality services and support.</li>
+                    <li>Responsible for creating and delivering product demonstrations that effectively communicate product benefits, features, and competitive advantage to potential clients.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Senior Business Analyst</h3>
+                <div class="date">Northern Grampians Shire Council, VIC, Australia | August 2020 – May 2021</div>
+                <ul>
+                    <li>Build the capacity of stakeholders to ensure compliance to regulations, the efficient and effective use of their Asset Maintenance Management software.</li>
+                    <li>Identify and implement further opportunities for improvement of its use, reducing total cost of ownership.</li>
+                    <li>Analysed and designed process maps to identify potential areas for improvement, gathering relevant data based on business goals and objectives, and implementing changes to optimise organisational efficiency.</li>
+                    <li>Collaborated with key stakeholders to track and improve KPIs and to ensure successful adoption of updated and new business processes.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Sales Engineer | Project Manager | Business Analyst</h3>
+                <div class="date">Linx Pty Ltd, Melbourne, VIC, Australia | July 2012 – April 2016</div>
+                <ul>
+                    <li>Managed implementation and administration of technology services including application software development, mobile app development, application support, and project management.</li>
+                    <li>Created and implemented a sales strategy that increased sales by 25%. Utilised consultative selling techniques to uncover client needs.</li>
+                    <li>Created and delivered presentations that educated clients on product offerings. Provided expert product knowledge to clients.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Product & Market Manager</h3>
+                <div class="date">SoftExpert, Joinville, SC, Brazil | March 2008 – June 2012</div>
+                <ul>
+                    <li>Lead the end-to-end product design vision and implementation of the following products: IT Service Management (ITSM), Project and Portfolio Management (PPM), and Product Lifecycle Management (PLM).</li>
+                    <li>Internally drove adoption of standardised marketing and training materials, and its development process, resulting in improved consistency, more efficient elaboration, and higher quality.</li>
+                    <li>Contributed to several project implementations in Australia, Brazil, Canada, and South Africa, working closely with customers and sales team, from the ideation and feasibility phases to business requirements to scope statement to architecture design and project plan.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Business Analyst</h3>
+                <div class="date">NeoGrid S.A., Joinville, SC, Brazil | July 2000 – March 2008</div>
+            </div>
+            <div class="experience-item">
+                <h3>e-Commerce Consultant</h3>
+                <div class="date">Client: Vista Imports, Inc., Alpharetta, GA, USA | February 2000 - June 2000</div>
+            </div>
+            <div class="experience-item">
+                <h3>Associate Consultant - Summer Internship</h3>
+                <div class="date">Booz-Allen & Hamilton, Inc. Sao Paulo, SP, Brazil | May 1999 - July 1999</div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>MBA Information Systems and e-Commerce</h3>
+                <div class="date">Georgia State University, GA, USA</div>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor’s Degree Electronics Engineering</h3>
+                <div class="date">Universidade Macenzie, Sao Paulo, SP, Brazil</div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">Agile and Waterfall Project Management</span>
+                <span class="skill-tag">Generative AI</span>
+                <span class="skill-tag">Scrum Product Owner (Agile)</span>
+                <span class="skill-tag">Software Development Lifecycle Mgmt.</span>
+                <span class="skill-tag">SaaS and Legacy Systems</span>
+                <span class="skill-tag">Governance, Risk, Compliance, TQM</span>
+                <span class="skill-tag">ERP, Small and Large Business</span>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <a href="mailto:rbortiz@itprojects.com.au">rbortiz@itprojects.com.au</a>
+                <a href="https://linkedin.com/in/roberto-barbosa-ortiz">LinkedIn</a>
+                <a href="tel:+61466597719">0466 597 719</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
